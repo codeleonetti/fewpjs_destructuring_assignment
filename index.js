@@ -1,4 +1,6 @@
 const farmAnimals = 'cow horse sheep pig chicken';
+const [moo, neigh, baa, oink, cluck] = 'cow horse sheep pig chicken'.split('')
+console.log(moo, neigh, baa, oink, cluck)
 
 const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 
@@ -24,6 +26,7 @@ const nestedMuppet = {
   nestedJob: 'Host of The Muppet Show',
   nestedPartner: 'Miss Piggy'
 };
+
 
 // Strings
 
